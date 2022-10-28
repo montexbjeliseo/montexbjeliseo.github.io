@@ -5,6 +5,44 @@
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-    <h1>Example</h1>
+	<section class="principal">
+		<div class="header" id="header">
+			<h1>Montenegro Eliseo</h1>
+		</div>
+		<div>
+			<button class="tab-button" onclick="show(0);"><h3>About me</h3></button>
+			<button class="tab-button active" onclick="show(1);"><h3>Technologies</h3></button>
+			<button class="tab-button" onclick="show(2);"><h3>Languages</h3></button>
+		</div>
+		<div>
+			<div class="content-body aboutme" id="container1">
+				<div class="block">
+					<p>
+						Soy desarrollador Java JR, especializado en Backend y estoy en busca de mi primer trabajo en la industria.
+					</p>
+				
+					<p>
+						Me considero una persona responsable y proactiva. Con facilidad para el aprendizaje y muchas ganas de seguir desarrollandome.
+					</p>
+					<p class="alert">
+						Si estás buscando agrandar tu equipo, puedes ver mis métricas de performance en <a href="https://partners.alkemy.org/" target="_blank">Alkemy</a> con tu email corporativo o contactando a <a href="mailto:contacto@alkemy.org">contacto@alkemy.org</a>. 
+					</p>
+				</div>
+				<div class="block">
+					<h3>Redes sociales</h3>
+					<p>
+						<ul>
+							<li><a href="https://linkedin.com/in/montenegroeliseo9" target="_blank">LinkedIn</a></li>
+							<li><a href="https://github.com/montexbjeliseo" target="_blank">Github</a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="content-body techs active" id="container2"></div>
+			<div class="content-body langs" id="container3"></div>
+		</div>
+	</section>
+	<script type="text/javascript" src="js/main.js">
+	</script>
 </body>
 </html>

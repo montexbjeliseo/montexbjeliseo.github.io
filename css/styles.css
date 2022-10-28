@@ -3,6 +3,97 @@
   padding:0;
   font-family: sans-serif;
 }
-h1 {
-  color: #444;
+
+body {
+	background-color: rgb(24, 25, 21);
+	color: rgb(158, 158, 156);
+}
+
+.principal {
+	margin: 20px;
+}
+
+.principal .header {
+	margin-bottom: 20px;
+}
+
+.principal .header h1 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+.principal .header p {
+	font-size: 1.2rem;
+}
+
+.principal .tab-button {
+	background-color: transparent;
+	margin:0;
+	padding: 5px;
+	border:0;
+	color: #444;
+}
+.principal .tab-button.active {
+	background-color: rgb(40, 41, 35);
+	color: inherit;
+}
+.principal .content-body {
+	background-color: rgb(40, 41, 35);
+	padding: 40px;
+	border-radius: 0 30px 0 30px;
+	display: none;
+}
+
+.principal .content-body.active {
+	
+}
+.principal .content-body.aboutme {
+
+}
+
+.principal .content-body.aboutme.active {
+	display: block;
+}
+.principal .content-body.techs {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.principal .content-body.techs.active {
+	display: grid;
+}
+.principal .content-body.langs {
+
+}
+
+.principal .content-body.langs.active {
+	display: block;
+}
+
+.content-body .card {
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+	cursor: pointer;
+}
+
+.content-body .card .card-icon {
+	width: 100px;	
+	align-items: center;
+	justify-content: center;
+}
+
+.content-body .block p {
+	display: block;
+	padding: 5px 0;
+}
+
+.content-body .block a {
+	color: #444;
+
+}
+
+.content-body .block .alert1 {
+	border: 1px solid #ddd;
+	padding: 10px 5px;
+	border-radius: 5px;
 }
