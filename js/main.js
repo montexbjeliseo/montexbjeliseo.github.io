@@ -50,6 +50,18 @@ let App = {
 		{
 			caption : "Git",
 			img : "img/git.png"
+		},
+		{
+			caption : "HTML5",
+			img : "img/html5.png"
+		},
+		{
+			caption : "CSS3",
+			img : "img/css.png"
+		},
+		{
+			caption : "JavaScript",
+			img : "img/javascript.png"
 		}
 	]
 };
