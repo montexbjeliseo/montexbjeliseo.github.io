@@ -46,6 +46,10 @@ let App = {
 		{
 			caption : "MapStruct",
 			img : "img/mapstruct.png"
+		},
+		{
+			caption : "Git",
+			img : "img/git.png"
 		}
 	]
 };
