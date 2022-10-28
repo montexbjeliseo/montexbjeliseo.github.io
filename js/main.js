@@ -1,4 +1,3 @@
-//Main script
 let App = {
 	fullname : "Montenegro Eliseo",
 	languajes : [
@@ -62,6 +61,10 @@ let App = {
 		{
 			caption : "JavaScript",
 			img : "img/javascript.png"
+		},
+		{
+			caption : "Python",
+			img : "img/python.png"
 		}
 	]
 };
