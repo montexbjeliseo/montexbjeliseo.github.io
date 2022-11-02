@@ -1,0 +1,22 @@
+@media(max-width: 900px){
+	.content-body .card .card-icon {
+		width: 50px;	
+	}
+}
+
+@media(max-width: 800px){
+	.principal .content-body.techs {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media(max-width: 600px){
+	.principal .content-body.techs {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media(max-width: 400px){
+	.content-body .card {
+		margin: 5px;
+	}
+}

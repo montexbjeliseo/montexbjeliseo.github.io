@@ -70,16 +70,13 @@ body {
 .content-body .card {
 	margin: 20px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
 	user-select: none;
 	cursor: pointer;
 }
 
 .content-body .card .card-icon {
 	width: 100px;	
-	align-items: center;
-	justify-content: center;
+	text-align: left;
 }
 
 .content-body .block p {
